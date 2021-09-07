@@ -1,0 +1,20 @@
+[
+    {
+        "pname": "Lux Beauty Shop",
+        "category": "Soap",
+        "brand": "Lux",
+        "stock": "100",
+        "quantity": "200 gm",
+        "price": "20",
+        "details": "Beauty Soap."
+    },
+    {
+        "pname": "Sandelina Beauty Shop",
+        "category": "Soap",
+        "brand": "Sandelina",
+        "stock": "100",
+        "quantity": "200 gm",
+        "price": "25",
+        "details": "Beauty Soap."
+    }
+]

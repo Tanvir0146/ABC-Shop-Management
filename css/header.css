@@ -1,0 +1,173 @@
+  /* //////_______CENTERING THE HEADER NAVBAR__________///// */
+
+  #header-window-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #header-container {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    max-width: 1200px;
+    width: 100%;
+    min-width: 50%;
+    z-index: 100;
+    border-radius: 0px 0px 20px 20px;
+    background: #9CECFB;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #header-item-1 {
+    flex-basis: 20%;
+    flex-shrink: 1;
+    text-align: center;
+  }
+
+  #header-item-2 {
+    flex-basis: 55%;
+    flex-shrink: 10;
+    text-align: center;
+  }
+
+  #header-item-3 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 15%;
+    flex-shrink: 1;
+    text-align: center;
+  }
+
+  input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+  }
+
+  /* //////______Search Bar CSS___________///// */
+
+
+  #product-list {
+    list-style: none;
+  }
+  #product-list li {
+    padding: 5px;
+    background: #068dc2e0;
+    border-bottom: #b9babb 1px solid;
+    color: #fff;
+    font-family: arial;
+    font-size: 15px;
+  }
+
+  #product-list li:hover {
+    background: #396fb6 ;
+    cursor: pointer;
+  }
+
+  #suggesstion-box {
+    position: absolute;
+    right: 550px;
+    list-style: none;
+    display: none;
+    padding: 0;
+    width: 250px;
+    max-height: 300px;
+    overflow-y: hidden;
+    height: 253px;
+  }
+
+  #header-item-2 #searchtxt {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border-color: darkgray;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background-image: url("https://img.icons8.com/ios-filled/30/000000/search--v4.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    padding-left: 30px;
+    box-shadow: 5px 5px 10px rgb(44, 112, 221);
+  }
+
+  #header-container #searchtxt:focus {
+    border-color: rgb(218, 107, 107);
+    transform: scale(1.05);
+  }
+
+  /* //////_______LOGO__________///// */
+
+  #header-container #shopLogo:hover {
+    transform: scale(1.12);
+  }
+
+  #shopLogo {
+    max-height: 90px;
+    max-width: 200px;
+  }
+
+  #header-container img.header-link:hover {
+    transform: scale(1.12);
+  }
+
+  /* //////________Rightmost Profile, Login, Register________///// */
+
+  #profile-link {
+    display: flex;
+  }
+
+  #child-item-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  #child-item-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #child-item-b:hover {
+    transform: scale(1.12);
+  }
+
+  #child-item-a a.header {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+  }
+
+  #child-item-a a.header:hover {
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.12);
+  }
+
+  @media only screen and (max-width: 700px) {
+    #header-container {
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 100px;
+    }
+    #shoplogo {
+      display: block;
+      width: 20px;
+      height: auto;
+    }
+    /* #searchtxt{
+      display: none;
+    } */
+  }

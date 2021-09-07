@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Fahim Faisal",
+        "email": "fahimfaisal1998@gmail.com",
+        "userName": "fahim",
+        "password": "mniff224",
+        "gender": "male",
+        "dob": "1999-04-22",
+        "phone": "01960839343",
+        "address": "Haluaghat, Mymensingh"
+    },
+    {
+        "name": "Shahriar Faisal",
+        "email": "shahriarfaisalshuvo@gmail.com",
+        "userName": "shuvo",
+        "password": "mniff225",
+        "gender": "male",
+        "dob": "2021-03-16",
+        "phone": "01960845622",
+        "address": "Haluaghat, Dhaka"
+    },
+    {
+        "name": "Kuddus Miya",
+        "email": "kuddus@gmail.com",
+        "userName": "kuddus",
+        "password": "mnif224",
+        "gender": "male",
+        "dob": "2021-03-16",
+        "phone": "01885566411",
+        "address": "Mars"
+    },
+    {
+        "name": "Abul Hasan",
+        "email": "abul@ymail.com",
+        "userName": "abul",
+        "password": "mniff22",
+        "gender": "male",
+        "dob": "2021-03-23",
+        "phone": "0198564164",
+        "address": "Pluto"
+    },
+    {
+        "name": "Jhalak Sarker",
+        "email": "jhalak@gmail.com",
+        "userName": "jhalak",
+        "password": "mniff224",
+        "gender": "male",
+        "dob": "2021-04-06",
+        "phone": "0185266644",
+        "address": "Mymensingh"
+    },
+    {
+        "name": "MD. AHASANUL ISLAM",
+        "email": "ahasanul@gmail.com",
+        "userName": "ahasanul",
+        "password": "abc12345",
+        "gender": "male",
+        "dob": "2021-03-24",
+        "phone": "0195526265",
+        "address": "Sylhet"
+    },
+    {
+        "name": "TANVIR HASSAN",
+        "email": "tanvir@gmail.com",
+        "userName": "tanvir",
+        "password": "abc12345",
+        "gender": "male",
+        "dob": "2018-01-30",
+        "phone": "01955262654",
+        "address": "Dhaka"
+    },
+    {
+        "name": "MD. IFTEKHAR JAHAN",
+        "email": "iftekhar@gmail.com",
+        "userName": "iftekhar",
+        "password": "abc12345",
+        "gender": "male",
+        "dob": "2021-03-25",
+        "phone": "01545654542",
+        "address": "Dhaka"
+    },
+    {
+        "name": "Kazi Mridha",
+        "email": "kazi@gmail.com",
+        "userName": "kazi",
+        "password": "abc12345",
+        "gender": "male",
+        "dob": "2021-03-17",
+        "phone": "0196083943",
+        "address": "Uttarkhairakuri, Haluaghat"
+    },
+    {
+        "name": "Fahim Faisal",
+        "email": "fahimfaisal1998@gmail.com",
+        "userName": "fahimfaisal",
+        "password": "abc12345",
+        "gender": "male",
+        "dob": "2021-03-11",
+        "phone": "+8801960839343",
+        "address": "Haluaghat,"
+    }
+]

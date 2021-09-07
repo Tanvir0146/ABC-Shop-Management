@@ -1,0 +1,65 @@
+#sale-container {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 2.5fr 8fr;
+    grid-template-rows: 100px auto auto;
+    grid-template-areas: "header header" "menubar body" "footer footer";
+    grid-gap: 0.5rem;
+    border-radius: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: menubar;
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1CB5E0, #1b86a3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+}
+
+main {
+    grid-area: body;
+}
+
+footer {
+    grid-area: footer;
+}
+.dash-container{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec-brand, .sec-category{
+    background-color:white;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(134, 187, 233);
+}
+
+.sec-brand>.brand-title, .sec-category>.category-title{
+    display: block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px rgb(79 208 196);
+    padding: 10px;
+}
+.sec-brand>.brand-ammount, .sec-category>.category-ammount{
+    display: block;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px rgb(79 208 196);
+    padding: 30px;
+    padding-top: 10px;
+}

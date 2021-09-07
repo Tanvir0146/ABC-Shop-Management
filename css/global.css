@@ -1,0 +1,14 @@
+/* ////////___FonT____/////// */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.window-container {
+    display: flex;
+    justify-content: center;
+}
